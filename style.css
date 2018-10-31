@@ -1,0 +1,21 @@
+@import url(@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+body {
+  background-color: #e6ffff;
+  margin: 0;
+  font-family: 'Gugi';
+}
+#header {
+  background-color: #003399;
+  height: 167px;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 167px;
+}
+#header-sub-title {
+  size: 30em;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
