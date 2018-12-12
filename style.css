@@ -38,6 +38,10 @@ a {
   color: white;
   text-decoration: none;
 }
+a:hover {
+  color: #3498db;
+  text-shadow: 1.2px 1.2px #000;
+}
 .button {
   margin: 0;
   padding: 0;
@@ -56,13 +60,13 @@ a {
 }
 @keyframes test {
 
-    0% {width: 200px;background-color: red;}
-    25% {width:400px;}
-    50% {width: 500px;}
-    77% {width: 700px;}
-    80% {width: 777px;}
-    90% {width: 800px;}
-    100% {width: 900px;background-color: green;}
+    0% {max-width: 200px;background-color: red;}
+    25% {max-width:400px;}
+    50% {max-width: 500px;}
+    77% {max-width: 700px;}
+    80% {max-width: 777px;}
+    90% {max-width: 800px;}
+    100% {max-width: 900px;background-color: green;}
 }
 .loading {
   position: absolute;
